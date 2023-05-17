@@ -1,0 +1,83 @@
+body{
+        background-color: rgb(240, 237, 237);
+        color: black;
+    }
+    .major{
+        margin-top: 60px;
+        margin-left: 537px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px 12px #888888;
+    }
+    .center{
+        text-align: center;
+        text-decoration: underline;
+        cursor: pointer;
+    
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        font-size: large;
+        padding: 20px;
+        margin: 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 70px;
+        height: 70px;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+        border-radius: 90px;
+        box-shadow: 0px 0px 5px 2px #888888;
+    }
+    
+    .row input{
+        font-size: 18px;
+        width: 228px;
+        margin: 15px 0;
+        padding: 12px 46px;
+        border: 2px solid black;
+        border-radius: 10px ;
+    }
+    
+    .clear{
+        width: 154px;
+    }
+    
+    #equal{
+        background-color: rgb(131, 197, 223);
+    }
+    
+    #cl{
+        background-color: red;
+    }
+    
+    #Switch{
+        margin: 25px;
+        font-size: large;
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        height: 60px;
+    }
+    #Switch:hover{
+        margin-top: 20px;
+        transform: scale(1.2);
+        border-radius: 90px;
+        box-shadow: 0px 0px 5px 4px #888888;
+    }
+    
+    /* Dark Mode css */
+    .darkmode{
+        background-color: black;
+        color: rgb(152, 152, 152);
+    }
+    
